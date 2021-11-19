@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"></link>
+</head>
+<body>
+    <div class="section container">
+        <div class= "col m6 offset-m3">
+        <table class="stripped highlight centered">
+            <thead class="teal lighten-3">
+              <tr>
+                  <th>Field</th>
+                  <th>Value</th>
+              </tr>
+            </thead>
+    
+            <tbody>
+             
+              <tr>
+                <td>Name</td>
+                <td><%= user.name %></td>
+              </tr>
+              <tr>
+                <td>Dojo</td>
+                <td><%= user.dojo %></td>
+              </tr>
+              <tr>
+                <td>Language</td>
+                <td><%= user.language %></td>
+              </tr>
+              <tr>
+                <td>Comment</td>
+                <td><%= user.comment %></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>
